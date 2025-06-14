@@ -85,7 +85,8 @@ ul {
     color: white;
     font-size: 18px;
     margin: 0;
-    padding: 2em 0;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
 }
 
 .intro_size {

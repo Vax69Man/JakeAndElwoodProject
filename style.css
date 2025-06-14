@@ -1,0 +1,184 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Blinker", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* FIRST SECTION + NAV */
+
+nav {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-size: 14px;
+}
+
+.backimg {
+    background: url("img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.nav_bckgrd {
+    background: black;
+}
+
+.logo {
+    background-color: yellow;
+    padding: 1.5em 0.25em 0 0.25em;
+}
+
+ul {
+    padding-left: 1em;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.nav_text {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.04em;
+    transition: color 0.3s;
+}
+
+.current_page {
+    border-bottom: 3px solid yellow;
+}
+
+.current_page:hover,
+.nav_text:hover {
+    color: darkgray;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 18px;
+    margin: 6em 0;
+}
+
+.intro_size {
+    margin-right: 39%;
+    margin-bottom: 1.5em;
+}
+
+.intro_size p {
+    margin-bottom: 1.5em;
+}
+
+.btn {
+    background: yellow;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 0.03em;
+    transition: color 0.3s;
+}
+
+.btn:hover,
+.btn:focus {
+    color: lightslategray;
+    border: none;
+}
+
+/* SECOND SECTION */
+
+.test123 {
+    display: grid;
+    grid-template-columns: minmax(100px, 250px) minmax(100px, 250px) minmax(100px, 250px);
+    grid-column-gap: 3em;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 3em auto;
+}
+
+.underline {
+    width: 40px;
+    height: 4px;
+    background-color: yellow;
+    margin: 0.75em auto;
+}
+
+.info_text {
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+}
+
+/* THIRD SECTION */
+
+footer {
+    background-color: grey;
+    padding: 5em 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.icon {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: white;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer1 {
+    width: 70%;
+    color: #404040;
+    line-height: 1.2em;
+    letter-spacing: 0.025em;
+}
+
+.footer1 h2 {
+    font-size: 2em;
+    margin-bottom: 0.25em;
+}
+
+.footer2 {
+    align-self: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

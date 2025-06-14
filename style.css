@@ -10,6 +10,13 @@ body {
     font-size: 16px;
 }
 
+html, body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 h1 {
     font-size: 48px;
 }
@@ -43,6 +50,7 @@ nav {
     background-position: center;
     width: 100%;
     padding-bottom: 1em;
+    height: 60vh;
 }
 
 .nav_bckgrd {
@@ -113,6 +121,10 @@ ul {
 
 /* SECOND SECTION */
 
+main {
+  flex: 1; /* Füllt den Rest aus */
+}
+
 .test123 {
     display: grid;
     grid-template-columns: minmax(100px, 250px) minmax(100px, 250px) minmax(100px, 250px);
@@ -139,6 +151,7 @@ ul {
 footer {
     background-color: grey;
     padding: 5em 0;
+    flex-shrink: 0;
 }
 
 .social-icons {

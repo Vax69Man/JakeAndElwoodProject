@@ -125,7 +125,8 @@ main {
     grid-column-gap: 3em;
     text-align: center;
     justify-content: space-evenly;
-    margin: 3em auto;
+    padding-top: 4em;
+    padding-bottom: 2em;
 }
 
 .underline {
@@ -144,7 +145,7 @@ main {
 
 footer {
     background-color: grey;
-    padding: 5em 0;
+    padding-top: 6.5em;
     min-height: 25vh;
 }
 

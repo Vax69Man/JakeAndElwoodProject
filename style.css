@@ -140,6 +140,7 @@ ul {
 footer {
     background-color: grey;
     padding: 5em 0;
+    margin-bottom: 0;
 }
 
 .social-icons {

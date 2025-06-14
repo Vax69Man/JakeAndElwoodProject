@@ -43,6 +43,7 @@ nav {
     background-position: center;
     width: 100%;
     padding-bottom: 1em;
+    min-height: 50vh;
 }
 
 .nav_bckgrd {
@@ -83,7 +84,8 @@ ul {
     flex-direction: column;
     color: white;
     font-size: 18px;
-    margin: 6em 0;
+    margin: 0;
+    padding: 2em 0;
 }
 
 .intro_size {
@@ -113,6 +115,10 @@ ul {
 
 /* SECOND SECTION */
 
+main {
+    min-height: 25vh;
+}
+
 .test123 {
     display: grid;
     grid-template-columns: minmax(100px, 250px) minmax(100px, 250px) minmax(100px, 250px);
@@ -139,6 +145,7 @@ ul {
 footer {
     background-color: grey;
     padding: 5em 0;
+    min-height: 25vh;
 }
 
 .social-icons {

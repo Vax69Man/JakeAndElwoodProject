@@ -154,8 +154,7 @@ footer {
     align-items: center;
     margin: 0;
     width: 100%;
-    bottom: 0;
-    min-height: 20vh;
+    min-height: 15em;
 }
 
 .social-icons {

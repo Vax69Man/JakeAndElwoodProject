@@ -153,11 +153,10 @@ footer {
     display: flex;
     align-items: center;
     margin: 0;
-    padding: 4em 0;
     width: 100%;
     position: absolute;
     bottom: 0;
-    width: 100%
+    min-height: 20vh;
 }
 
 .social-icons {

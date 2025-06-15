@@ -154,7 +154,6 @@ footer {
     align-items: center;
     margin: 0;
     width: 100%;
-    position: absolute;
     bottom: 0;
     min-height: 20vh;
 }
@@ -180,6 +179,7 @@ footer {
 .footer_content {
     display: flex;
     justify-content: space-between;
+    bottom: 0;
 }
 
 .footer1 {
